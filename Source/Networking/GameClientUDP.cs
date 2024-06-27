@@ -48,6 +48,7 @@ namespace StayInTarkov.Networking
                 PacketPoolSize = 999,
                 EnableStatistics = true,
                 ChannelsCount = 2,
+                DisconnectTimeout = 60 * 1000 //TODO: REMOVE ME, FOR DEBUGGING ONLY
             };
 
             // ===============================================================
